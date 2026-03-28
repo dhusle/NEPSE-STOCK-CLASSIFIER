@@ -3,16 +3,20 @@ PROJECT: NEPSE STOCK CLASSIFIER
 BUY SIGNALER
 
 OBJECTIVE: To classify stocks according to the EMA 9 and EMA 50 positions.
+
 MODEL:
 Stocks are classified based on EMA 50 and EMA 9 positions. 3 different CONDITIONS and CASES are mentioned below to define BUY signal or BUY opportunities. The project is subjected to expand and change over time with the instruction upon provided. 
+
 CONDITIONS:
 1.	EMA 9 is above EMA 50 (BUY)
 2.	EMA 9 is below EMA 50 (IGNORE)
 3.	EMA 9 crossover EMA 50 during condition 2 (BUY)
+   
 CASES: (HIGH PROFITABILITY STOCKS)
 1.	U-shaped formation: When the candles start to form a U shape structure, it is BUY signal.
 a.	U shape formation during CONDITIONS 1 (BUY PRIORTY: HIGH)
 4.	U shape formation during condition 3
+   
 TIMEFRAME:
 Weekly and Daily time frame are considered for analysis. 
 1.	Candles above and close to EMA 50 both in weekly and daily is strong BUY signal.
